@@ -1,0 +1,29 @@
+name: bioaccess_movil
+description: Aplicación Flutter para BioAccess (Terminal · Usuario · Admin)
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  url_launcher: ^6.3.0
+  
+  flutter_riverpod: ^2.5.0
+  dio: ^5.7.0
+  google_fonts: ^6.2.0
+  shared_preferences: ^2.3.2
+  flutter_secure_storage: ^9.2.2
+  intl: ^0.19.0
+  uuid: ^4.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
